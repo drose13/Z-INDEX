@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    position: absolute;
+    z-index: -1;
+}
+.headimg{
+    width: 100%;
+    height: 500px;
+}
+.bigtext1{
+    width: 500px;
+    color: white;
+    height: 70px;
+}
+.text1{
+display: inline-block;
+margin-top: 6%;
+margin-left: 7%;
+font-size: 40px;
+}
+input{
+    width: 300px;
+    height: 45px;
+    border: none;
+}
+::placeholder {
+    font-size: 17px;
+  }
+button{
+    width: 170px;
+    height: 45px;
+    background-color: rgb(255, 189, 9);
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+.header2{
+    max-width: 100%;
+    height: 500px;
+    background-color:  rgb(247, 180, 37);
+    margin-top: 135px;
+    display: flex;
+}
+.text2{
+        display: inline-block;
+        margin-left: 7%;
+        font-size: 40px;
+        width: 800px;
+}
+.text2>img{
+    width: 500px;
+}
+.img2{
+    margin-left: 150px;
+}
+.section{
+    display: flex;
+    width: 100%;
+    font-size: 35px;
+}
+.section>div{
+    height: 550px;
+}
+.section1{
+background-color: red;
+padding-left: 25px;
+color: white;
+width: 33%;
+}
+.section2{
+background-color: rgb(247, 180, 37);
+padding-left: 25px;
+color: rgb(0, 0, 0);
+width: 33%;
+}
+.section3{
+background-color: rgb(38, 38, 41);
+padding-left: 25px;
+color: white;
+width: 33%;
+}
+.section4{
+background-color: rgb(93, 93, 102);
+padding-left: 25px;
+color: white;
+width: 33%;
+}
+.fas{
+    font-size: 80px;
+}
+.lastflexbox{
+    width: 100%;
+    height: 2000px;
+position: absolute;
+z-index: 2;
+}
+.fleximg{
+    width: 550px;
+    height: 550px;
+    margin: 0 23px;
+}
+.fleximg2{
+    width: 550px;
+    height: 650px;
+    margin: 0 30px;
+    margin-left: 80px;
+}
+.flexbox1{
+    display: flex;
+    margin: 0 60px;
+    padding-top: 100px;
+}
+.flexbox2{
+    display: flex;
+    margin: 40px 60px;
+}
+.flexbox3{
+    display: flex;
+}
+.boxtext{
+    font-size: 35px;
+    height: 500px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.lines{
+    width: 550px;
+    height: 550px;
+    margin-left: 20px;
+}
+.rotate{
+    border-left:  9.5px black solid;
+    height: 325px;
+    padding: 10px;
+}
+.background{
+    display: flex;
+    z-index: 2;
+}
+.background1{
+    background-color: rgb(247, 180, 37);
+    width: 25%;
+    height: 1000px;
+}
+.background2{
+    width: 75%;
+    background-color: rgb(38, 38, 41);
+}
+.background3{
+    background-color: rgb(247, 180, 37);
+    height: 1000px;
+}
+
+
+
